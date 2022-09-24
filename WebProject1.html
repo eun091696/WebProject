@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="left">
+          <i class="fa-solid fa-house-user"></i>
+          <i class="fa-solid fa-mug-hot"></i>
+          <i class="fa-regular fa-image"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-solid fa-headset"></i>
+        </div>
+        <div class="right">
+            <div class="header">
+              <img class="img1" src="image2.png" alt="2">
+            </div>
+            <div class="nav">
+                <button type="button">HOME</button>
+                <button type="button">COFFEE</button>
+                <button type="button">CF</button>
+                <button type="button">PRINT</button>
+                <button type="button">문의하기</button>
+                </div>
+            <div class="main">
+                <table class="table">
+                  <thead class="tthead">
+                    <tr>
+                      <td class="t1" colspan="2">제품 문의하기</td>
+                    </tr>
+                   </thead>
+                   <tbody class="ttbody">
+                    <tr>
+                      <th>제목</th>
+                      <td><input class="input1" type="text"></td>
+                    </tr>
+                    <tr>
+                      <th>작성자</th>
+                      <td><input class="input1" type="text"></td>
+                    </tr>
+                    <tr>
+                      <th>답변받을 이메일</th>
+                      <td class="email1"><input class="input2" type="email">@
+                        <select class="email" name="email">
+                          <option value="naver.com">naver.com</option>
+                          <option value="daum.net">daum.net</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>메모</th>
+                      <td class="memo"><input type="text"></td>
+                    </tr>
+                   </tbody>
+                   <tfoot class="ttfoot">
+                      <tr>
+                        <td colspan="2">
+                          <button class="bt1">문의하기</button>
+                          <button class="bt2">초기화</button>
+                        </td>
+                      </tr>
+                   </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
